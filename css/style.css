@@ -145,7 +145,7 @@
 }
 @font-face {
   font-family: "Sans Semi-bold";
-  src: url("../assets/GeneralSans-Semibold.otf") format("opentype");
+  src: url("../assets/fonts/GeneralSans-Semibold.otf") format("opentype");
   font-style: normal;
 }
 @font-face {
@@ -435,11 +435,12 @@ a {
 }
 /* partner section end */
 /* contact section start */
-.contact-bg{
-  background: url(../assets/images/contact-bg.png) no-repeat center center / cover;
+.contact-bg {
+  background: url(../assets/images/contact-bg.png) no-repeat center center /
+    cover;
   height: 150vh;
 }
-.input{
+.input {
   outline: none !important;
   background: none;
   border: 1px solid white;
@@ -448,15 +449,15 @@ a {
   padding: 0.5rem 0.5rem;
   margin-bottom: 1.5rem;
 }
-.contactBtn{
+.contactBtn {
   width: 100%;
 }
-.nested-contact-container{
+.nested-contact-container {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 12rem;
 }
-.partner-img{
+.partner-img {
   margin-bottom: -11rem;
 }
 /* contact section end */
@@ -469,31 +470,37 @@ a {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #34A753;
+  background-color: #34a753;
   color: white;
   cursor: pointer;
   padding: 5px;
   border-radius: 4px;
 }
 #backToTop:hover {
-  background-color: #A8A8A8;
+  background-color: #a8a8a8;
 }
 #backToTop img {
   width: 25px;
   height: 25px;
-  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6349%) hue-rotate(36deg) brightness(99%) contrast(111%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6349%)
+    hue-rotate(36deg) brightness(99%) contrast(111%);
 }
 /* modal */
-.modal-container{
-padding-top: 3rem;
+.modal-container {
+  padding-top: 3rem;
 }
-.modal-img{
+.modal-img {
   width: 50%;
   height: 50%;
 }
 .modal-dialog {
   max-width: 890px !important;
-
+}
+.alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
 }
 @media all and (max-width: 992px) {
   .deliver-card-content {
@@ -512,7 +519,6 @@ padding-top: 3rem;
     font-size: 2.5rem !important;
   }
   .heroBg {
-
     padding-top: 6rem;
     height: 100vh;
   }
@@ -609,11 +615,11 @@ padding-top: 3rem;
   }
   /* partner section mq end */
   /* contact section start */
-  .input{
+  .input {
     width: 100%;
     padding: 0.3rem 0.3rem;
   }
-  .contactBtn{
+  .contactBtn {
     width: 100%;
   }
   /* contact section mq end */
@@ -624,8 +630,7 @@ padding-top: 3rem;
   }
   /* footer mq end */
   /* modal */
-  .modal-img{
+  .modal-img {
     width: 100%;
-
   }
 }
