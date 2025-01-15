@@ -7,10 +7,10 @@ document
     const link = document.createElement("a");
 
     // Set the file URL (update 'example.txt' with your file URL or path)
-    link.href = "./assets/images/file.txt";
+    link.href = "./assets/docs/form.pdf";
 
     // Set the file name for download
-    link.download = "file.txt";
+    link.download = "Deposit_Authorization_Form.pdf";
 
     // Trigger the download
     link.click();
