@@ -428,12 +428,7 @@ a {
   width: 80%;
 }
 /* review slider end */
-/* partner section start  */
-.partner-container {
-  padding-top: 8rem;
-  padding-bottom: 3rem;
-}
-/* partner section end */
+
 /* contact section start */
 .contact-bg{
   background: url(../assets/images/contact-bg.png) no-repeat center center / cover;
@@ -602,12 +597,7 @@ padding-top: 3rem;
     width: 100%;
   }
   /* review slider mq end */
-  /* partner section mq start  */
-  .partner-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  /* partner section mq end */
+
   /* contact section start */
   .input{
     width: 100%;
